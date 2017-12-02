@@ -125,7 +125,7 @@ public class MainActivity extends Activity {
 
 						}
 
-						return String.format("This apple was identified as being:\n    "
+						return String.format("This picture was identified as having apples:\n    "
 								+ colorTag + " in color, with a confidence of %g\n    "
 								+ countTag + " in count, with a confidence of %g",
 								colorProbability, countProbability);
