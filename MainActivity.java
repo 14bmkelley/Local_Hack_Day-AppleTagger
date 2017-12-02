@@ -62,8 +62,8 @@ public class MainActivity extends Activity {
 
 	private void customVisionAPIRequest(final String url, final Callback<String> callback) {
 
-		final String subscriptionKey = "e6a99cf4f6e04f5cbcd4cdf18c22fe1a";
-		final String uriBase = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/dec57d0c-10ca-426b-baa2-871b593c0bc0/url?iterationId=7de6ee68-cd93-45af-9a2e-fb745abb5f53";
+		final String subscriptionKey = "GET_YOUR_OWN!";
+		final String uriBase = "Copy this from the Custom Vision API.";
 
 		(new AsyncTask<Void, Void, String>() {
 
