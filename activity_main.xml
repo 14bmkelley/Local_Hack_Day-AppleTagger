@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.brandonmkelley.appletaggerapp.MainActivity">
+
+	<TextView
+		android:id="@+id/taggerText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="80dp"
+		android:layout_marginBottom="50dp"
+		android:text="Tag my apple!"/>
+
+	<EditText
+		android:id="@+id/taggerInput"
+		android:layout_width="300dp"
+		android:layout_height="40dp"
+		android:inputType="text"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:hint="Insert link here"/>
+
+	<Button
+		android:id="@+id/taggerSubmit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:height="20dp"
+		android:layout_marginBottom="20dp"
+		android:text="Submit"/>
+
+	<TextView
+		android:id="@+id/taggerResults"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
